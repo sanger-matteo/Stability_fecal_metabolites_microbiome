@@ -1,8 +1,7 @@
 This repository contains scripts associated with the paper:  
 
-## Paper
-**Stability in fecal metabolites amid a diverse gut microbiome composition: a one-month longitudinal study of variability in healthy individuals.**  
-<small>Published in *Gut Microbes*, 12 November 2024. </small>
+## Stability in fecal metabolites amid a diverse gut microbiome composition: a one-month longitudinal study of variability in healthy individuals. 
+Published in *Gut Microbes*, 12 November 2024.
 [Link to the paper](URL_of_your_paper)
 [DOI: 10.1080/19490976.2024.2427878](https://doi.org/10.1080/19490976.2024.2427878)
 
@@ -10,18 +9,18 @@ This repository contains scripts associated with the paper:
 **Matteo Sangermani**<sup>1,2</sup>, Indri Desiati<sup>3</sup>, Solveig M. Jørgensen<sup>3</sup>, Jia V. Li<sup>4</sup>, Trygve Andreassen<sup>3,5</sup>, Tone F. Bathen<sup>3</sup>, Guro F. Giskeødegård<sup>1,2</sup>
 
 #### Affiliations
-<small>
+<h6>
 1. Dep. of Public Health and Nursing NTNU, Trondheim
 2. Dep of Surgery, St. Olavs University Hospital, Trondheim
 3. Dep. of Circulation and Medical Imaging, NTNU, Trondheim.
 4. Department of Metabolism, Digestion and Reproduction, Imperial College London, London
 5. Central Staff, St. Olavs Hospital HF, Trondheim.
-</small>
+</h6>
 
 
 ## Abstract of the paper
-<small>*An extensive network of microbial-host interactions exists in the gut, making the gut microbiome a complex ecosystem to untangle. The microbial composition and the fecal metabolites are important readouts to investigate intricate microbiota-diet-host interplay. However, this ecosystem is dynamic, and it is of interest to understand the degree and timescale of changes occurring in the gut microbiota, during disease as well as in healthy individuals. Cross-sectional study design is often used to investigate the microbiome, but this design provides a static snapshot and cannot provide evidence on the dynamic nature of the gut microbiome. Longitudinal studies are better suited to extrapolate causation in a study or assess changes over time.
-This study investigates longitudinal change in the gut microbiome and fecal metabolites in 14 healthy individuals with weekly sampling over a period of one-month (four time points), to elucidate the temporal changes occurring in the gut microbiome composition and fecal metabolites. Utilizing 16S rRNA amplicon sequencing for microbiome analysis and NMR spectroscopy for fecal metabolite characterization, we assessed the stability of these two types of measurable parameters in fecal samples during the period of one month. Our results show that the gut microbiome display large variations between healthy individuals, but relatively lower within-individual variations, which makes it possible to uniquely identify individuals. The fecal metabolites showed higher stability over time compared to the microbiome and exhibited consistently smaller variations both within and between individuals. This relative higher stability of the fecal metabolites suggests a balanced, consistent output even amid individual’s differences in microbial composition and they can provide a viable complementary readout to better understand the microbiome activity.*</small>
+<h6l>*An extensive network of microbial-host interactions exists in the gut, making the gut microbiome a complex ecosystem to untangle. The microbial composition and the fecal metabolites are important readouts to investigate intricate microbiota-diet-host interplay. However, this ecosystem is dynamic, and it is of interest to understand the degree and timescale of changes occurring in the gut microbiota, during disease as well as in healthy individuals. Cross-sectional study design is often used to investigate the microbiome, but this design provides a static snapshot and cannot provide evidence on the dynamic nature of the gut microbiome. Longitudinal studies are better suited to extrapolate causation in a study or assess changes over time.
+This study investigates longitudinal change in the gut microbiome and fecal metabolites in 14 healthy individuals with weekly sampling over a period of one-month (four time points), to elucidate the temporal changes occurring in the gut microbiome composition and fecal metabolites. Utilizing 16S rRNA amplicon sequencing for microbiome analysis and NMR spectroscopy for fecal metabolite characterization, we assessed the stability of these two types of measurable parameters in fecal samples during the period of one month. Our results show that the gut microbiome display large variations between healthy individuals, but relatively lower within-individual variations, which makes it possible to uniquely identify individuals. The fecal metabolites showed higher stability over time compared to the microbiome and exhibited consistently smaller variations both within and between individuals. This relative higher stability of the fecal metabolites suggests a balanced, consistent output even amid individual’s differences in microbial composition and they can provide a viable complementary readout to better understand the microbiome activity.*</h6>
 
 
 ## Description of the Scripts
