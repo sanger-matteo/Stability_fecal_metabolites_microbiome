@@ -8,18 +8,15 @@ Published in ***Gut Microbes***, on 12 November 2024.
 [DOI: 10.1080/19490976.2024.2427878](https://doi.org/10.1080/19490976.2024.2427878)
 
 #### Authors
-<h6>
-	**Matteo Sangermani**<sup>1,2</sup>, Indri Desiati<sup>3</sup>, Solveig M. Jørgensen<sup>3</sup>, Jia V. Li<sup>4</sup>, Trygve Andreassen<sup>3,5</sup>, Tone F. Bathen<sup>3</sup>, Guro F. Giskeødegård<sup>1,2</sup>
-</h6>
+**Matteo Sangermani**<sup>1,2</sup>, Indri Desiati<sup>3</sup>, Solveig M. Jørgensen<sup>3</sup>, Jia V. Li<sup>4</sup>, Trygve Andreassen<sup>3,5</sup>, Tone F. Bathen<sup>3</sup>, Guro F. Giskeødegård<sup>1,2</sup>
 
-#### Affiliations
 <h6>
 <sup>1</sup> Dep. of Public Health and Nursing NTNU, Trondheim. 
 <sup>2</sup> Dep of Surgery, St. Olavs University Hospital, Trondheim. 
 <sup>3</sup> Dep. of Circulation and Medical Imaging, NTNU, Trondheim. 
 <sup>4</sup> Department of Metabolism, Digestion and Reproduction, Imperial College London, London. 
 <sup>5</sup> Central Staff, St. Olavs Hospital HF, Trondheim. 
-
+</h6>
 
 ## Abstract of the paper
 <h5>
@@ -27,6 +24,7 @@ Published in ***Gut Microbes***, on 12 November 2024.
 </h5> <h5>
 	This study investigates longitudinal change in the gut microbiome and fecal metabolites in 14 healthy individuals with weekly sampling over a period of one-month (four time points), to elucidate the temporal changes occurring in the gut microbiome composition and fecal metabolites. Utilizing 16S rRNA amplicon sequencing for microbiome analysis and NMR spectroscopy for fecal metabolite characterization, we assessed the stability of these two types of measurable parameters in fecal samples during the period of one month. Our results show that the gut microbiome display large variations between healthy individuals, but relatively lower within-individual variations, which makes it possible to uniquely identify individuals. The fecal metabolites showed higher stability over time compared to the microbiome and exhibited consistently smaller variations both within and between individuals. This relative higher stability of the fecal metabolites suggests a balanced, consistent output even amid individual’s differences in microbial composition and they can provide a viable complementary readout to better understand the microbiome activity.
 </h5>
+
 
 ## Description of the Scripts
 This repository includes several scripts used in the study. Below is a brief overview of each:
