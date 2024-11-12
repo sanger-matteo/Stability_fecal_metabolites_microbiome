@@ -1,29 +1,28 @@
-# Title of the Project
+This repository contains scripts associated with the paper:  
 
 ## Paper
-This repository contains scripts associated with the paper:  
 **Stability in fecal metabolites amid a diverse gut microbiome composition: a one-month longitudinal study of variability in healthy individuals.**  
-Published in *Gut Microbes*, 12 November 2024.
+<small>Published in *Gut Microbes*, 12 November 2024. </small>
+[Link to the paper](URL_of_your_paper)
+[DOI: 10.1080/19490976.2024.2427878](https://doi.org/10.1080/19490976.2024.2427878)
 
-### Authors
+#### Authors
 **Matteo Sangermani**<sup>1,2</sup>, Indri Desiati<sup>3</sup>, Solveig M. Jørgensen<sup>3</sup>, Jia V. Li<sup>4</sup>, Trygve Andreassen<sup>3,5</sup>, Tone F. Bathen<sup>3</sup>, Guro F. Giskeødegård<sup>1,2</sup>
 
-### Affiliations
+#### Affiliations
+<small>
 1. Dep. of Public Health and Nursing NTNU, Trondheim
 2. Dep of Surgery, St. Olavs University Hospital, Trondheim
 3. Dep. of Circulation and Medical Imaging, NTNU, Trondheim.
 4. Department of Metabolism, Digestion and Reproduction, Imperial College London, London
 5. Central Staff, St. Olavs Hospital HF, Trondheim.
+</small>
 
-### URL of the Paper
-[Link to the paper](URL_of_your_paper)
 
-### DOI
-[DOI: 10.1080/19490976.2024.2427878](https://doi.org/10.1080/19490976.2024.2427878)
+## Abstract of the paper
+<small>*An extensive network of microbial-host interactions exists in the gut, making the gut microbiome a complex ecosystem to untangle. The microbial composition and the fecal metabolites are important readouts to investigate intricate microbiota-diet-host interplay. However, this ecosystem is dynamic, and it is of interest to understand the degree and timescale of changes occurring in the gut microbiota, during disease as well as in healthy individuals. Cross-sectional study design is often used to investigate the microbiome, but this design provides a static snapshot and cannot provide evidence on the dynamic nature of the gut microbiome. Longitudinal studies are better suited to extrapolate causation in a study or assess changes over time.
+This study investigates longitudinal change in the gut microbiome and fecal metabolites in 14 healthy individuals with weekly sampling over a period of one-month (four time points), to elucidate the temporal changes occurring in the gut microbiome composition and fecal metabolites. Utilizing 16S rRNA amplicon sequencing for microbiome analysis and NMR spectroscopy for fecal metabolite characterization, we assessed the stability of these two types of measurable parameters in fecal samples during the period of one month. Our results show that the gut microbiome display large variations between healthy individuals, but relatively lower within-individual variations, which makes it possible to uniquely identify individuals. The fecal metabolites showed higher stability over time compared to the microbiome and exhibited consistently smaller variations both within and between individuals. This relative higher stability of the fecal metabolites suggests a balanced, consistent output even amid individual’s differences in microbial composition and they can provide a viable complementary readout to better understand the microbiome activity.*</small>
 
-## Abstract
-*An extensive network of microbial-host interactions exists in the gut, making the gut microbiome a complex ecosystem to untangle. The microbial composition and the fecal metabolites are important readouts to investigate intricate microbiota-diet-host interplay. However, this ecosystem is dynamic, and it is of interest to understand the degree and timescale of changes occurring in the gut microbiota, during disease as well as in healthy individuals. Cross-sectional study design is often used to investigate the microbiome, but this design provides a static snapshot and cannot provide evidence on the dynamic nature of the gut microbiome. Longitudinal studies are better suited to extrapolate causation in a study or assess changes over time.
-This study investigates longitudinal change in the gut microbiome and fecal metabolites in 14 healthy individuals with weekly sampling over a period of one-month (four time points), to elucidate the temporal changes occurring in the gut microbiome composition and fecal metabolites. Utilizing 16S rRNA amplicon sequencing for microbiome analysis and NMR spectroscopy for fecal metabolite characterization, we assessed the stability of these two types of measurable parameters in fecal samples during the period of one month. Our results show that the gut microbiome display large variations between healthy individuals, but relatively lower within-individual variations, which makes it possible to uniquely identify individuals. The fecal metabolites showed higher stability over time compared to the microbiome and exhibited consistently smaller variations both within and between individuals. This relative higher stability of the fecal metabolites suggests a balanced, consistent output even amid individual’s differences in microbial composition and they can provide a viable complementary readout to better understand the microbiome activity.*
 
 ## Description of the Scripts
 
@@ -45,7 +44,7 @@ Each script is designed to be run independently to generate the figures presente
 ## Description of the Data
 *Provide an overview of the datasets used, generated, or required by the scripts. Mention if there are specific data preprocessing steps or data formats expected.*
 
-## Figures
+## Main Figures
 The following figures showcase the types of analyses or results generated by the scripts in this repository:
 
 | ![Figure 1](Final_Figures/Figure_1.png) | ![Figure 2](Final_Figures/Figure_2.png) | ![Figure 3](Final_Figures/Figure_3.png) |
@@ -56,7 +55,7 @@ The following figures showcase the types of analyses or results generated by the
 
 To run these scripts, the following R packages are required:
 
-### Visualization
+#### Visualization
 - `ggplot2`
 - `cowplot`
 - `tiff`
@@ -64,19 +63,19 @@ To run these scripts, the following R packages are required:
 - `ggtext`
 - `showtext`
 
-### Data Manipulation
+#### Data Manipulation
 - `readr`
 - `tidyr`
 - `tibble`
 - `dplyr`
 
-### Statistical Analysis
+#### Statistical Analysis
 - `Rtsne`
 - `nlme`
 - `nortest`
 - `PResiduals` (for Partial Spearman correlation)
 
-### Setup Instructions
+#### Setup Instructions
 In each script, change the variable `cDir_Rscript` to the **absolute path** of the repository on the machine running the code. All other paths are relative to this and follow Unix/MacOS format.
 
 
@@ -94,6 +93,7 @@ Table of the data used for analysis are included in the repository. Folder *Data
 	- *TAXO_longit.tsv*: taxonomic information for each ASV present in the cohort.
 	- *META_longit*: The metadata information of the cohort, such as "Sample_ID", "Exp_Group", "Exp_Name", "Exp_TimePoint", "Sex", etc.
 	- *RefList_Class.txt* and *RefList_Phyla.txt*: a simple list of all the classes and phyla present in the cohort listed by abundance and with a reference color to use to highlight plots by tese specific ranks.
+	- *Drop_Features_Named.txt*: species taxonomy in 16S rRNS sequencing is often incomplete. THese is a list of names (such as "unkown", "unclassified genome", etc) that should not be identified as "species".
 	- *LUT_Microbes*: LUT color table; each class in the cohort is assigned a range of tonalities from the same base color.
 
 
