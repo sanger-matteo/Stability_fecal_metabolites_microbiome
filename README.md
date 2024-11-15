@@ -3,9 +3,9 @@ This repository contains scripts is associated with the paper:
 ## Stability in fecal metabolites amid a diverse gut microbiome composition: a one-month longitudinal study of variability in healthy individuals. 
 Published in ***Gut Microbes***, on 12 November 2024.
 
-[Link to the paper](URL_of_your_paper)
+[Link to the paper](https://www.tandfonline.com/doi/full/10.1080/19490976.2024.2427878)
 
-[DOI: 10.1080/19490976.2024.2427878](https://doi.org/10.1080/19490976.2024.2427878)
+[DOI: 10.1080/19490976.2024.2427878](https://doi.org/10.1080/19490976.2024.2426610)
 
 #### Authors
 **Matteo Sangermani**<sup>1,2</sup>, Indri Desiati<sup>3</sup>, Solveig M. Jørgensen<sup>3</sup>, Jia V. Li<sup>4</sup>, Trygve Andreassen<sup>3,5</sup>, Tone F. Bathen<sup>3</sup>, Guro F. Giskeødegård<sup>1,2</sup>
