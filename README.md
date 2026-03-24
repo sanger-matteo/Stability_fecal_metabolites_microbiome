@@ -1,4 +1,4 @@
-This repository contains scripts is associated with the paper:  
+This repository contains scripts associated with the paper:  
 
 ## Stability in fecal metabolites amid a diverse gut microbiome composition: a one-month longitudinal study of variability in healthy individuals. 
 Published in [***Gut Microbes***](https://www.tandfonline.com/doi/full/10.1080/19490976.2024.2427878), on 12 November 2024.
